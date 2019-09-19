@@ -1,0 +1,14 @@
+{
+  "name": "fake-route",
+  "version": "1.0.0",
+  "description": "api that mocks switching gps location coordinates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "route"
+  ],
+  "author": "Sammy Gacho",
+  "license": "MIT"
+}
