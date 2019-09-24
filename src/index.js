@@ -10,6 +10,15 @@ io.on('connection', (socket) => {
 
 
 app.get('/fakeroute', async (req, res) => {
+    // const locations = [
+    //     { locationOne: [-1.289984, 36.783166] },
+    //     { locationTwo: [-1.290928, 36.783271] },
+    //     { locationThree: [-1.291744, 36.783410] },
+    //     { locationFour: [-1.292403, 36.783480] },
+    //     { locationFive: [-1.292344, 36.784247] },
+    //     { locationSix: [-1.292280, 36.785513] },
+    // ];
+
     const timeout = 3000;
 
     const done = locations.coordinates.forEach((item, index) => {
