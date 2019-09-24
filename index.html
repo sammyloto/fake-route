@@ -7,8 +7,15 @@
     // socket.on(nameofevent, (msg, time) => {
         
     // })
-socket.on('route', (item, index) => {
-    console.log(item, index);
-})
+
+    window.locations  = [];
+
+    socket.on('route', (item, index) => {
+        console.log(item, index);
+        window.locations = [
+            ...window.locations,
+            item,
+        ];
+    });
 
 </script>
